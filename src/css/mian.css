@@ -1,0 +1,37 @@
+/*
+*项目公共css样式
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+h1 {
+    color: red;
+}
+
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('../fonts/webfont.eot'); /* IE9 */
+    src: url('../fonts/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/webfont.woff2') format('woff2'),
+    url('../fonts/webfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .web-font {
+    font-family: "webfont", sans-serif !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
